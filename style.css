@@ -141,7 +141,7 @@ strong{
     width: 100%;
 }
 
-.second-section{
+.second-section, .fourth-section{
     background-color: var(--cor5);
     display: flex;
     flex-direction: column;
@@ -194,10 +194,26 @@ strong{
     border-radius: 10px;
 }
 
-/* Texto da terceira seção */
 .third-section> div p{
     max-width: 600px;
     color: var(--cor4);
     text-align: justify;
 }
 
+#loading{
+    color: var(--cor1);
+}
+
+footer{
+    display: flex;
+    padding: 4rem;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+footer> div{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
